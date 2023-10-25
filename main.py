@@ -1,5 +1,5 @@
-a = int(input("Zadaj číslo a\n"))
-b = int(input("Zadaj číslo b\n"))
+a = int(input("Zadaj číslo a\n:"))
+b = int(input("Zadaj číslo b\n:"))
 print("Súčet je" , a + b)
 print("Rozdiel je", a - b)
 print("Súčin je", a * b )
