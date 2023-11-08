@@ -6,7 +6,7 @@ canvas.pack()
 x = 10
 y = 10
 d = 20
-f = 'red'
+f = 'blue'
 canvas.create_rectangle(x, y, x+d, y+d, fill = f)
 canvas.create_rectangle(x+d, y+d, x+(2*d), y+(2*d), fill = f)
 canvas.create_rectangle(x+(2*d), y+(2*d), x+(d*3), y+(d*3), fill = f)
