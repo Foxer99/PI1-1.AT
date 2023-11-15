@@ -3,8 +3,9 @@ import tkinter
 canvas = tkinter.Canvas()
 canvas.pack()
 
-x = 10
-y = 5
+
+x = 20
+y = 30
 dlzka = float(input("Zadaj číslo veľkosti mena:\n(číslo nesmie byť väčšie ako 14)"))
 
 if dlzka <= 14 :
