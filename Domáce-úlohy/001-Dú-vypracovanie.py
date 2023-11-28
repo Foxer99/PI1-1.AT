@@ -21,4 +21,6 @@ for i in range(pocet_y):
     canvas.create_rectangle(x + 22.5, y + 22.5, x + 27, y + 27, fill='light blue')
     y = y + 11
 
+
+
 canvas.mainloop()
