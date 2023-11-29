@@ -1,3 +1,3 @@
-001 - Spraviť ako to aby sa opakovalo moje meno (dú)
+001 - Spraviť ako to aby sa menila farba mena (dú)
 002 - Spraviť dú (domy ktoré sa opakujú)
     !!!    Spraviť poriadok    !!!  √
