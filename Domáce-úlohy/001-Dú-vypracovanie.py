@@ -9,7 +9,7 @@ d = 30
 xx =x
 pocet = (600-2)//(d+5)
 stvrtina = d//4
-for g in range((1000-2)//(d+d//2)):
+for i in range((1000-2)//(d+d//2)):
     for i in range(pocet):
             colors =random.choice( ['yellow', 'purple', 'green', 'pink', 'blue'])
 
