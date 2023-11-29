@@ -1,26 +1,26 @@
-import  tkinter
+import tkinter
 import random
+canvas = tkinter.Canvas(width=600, height=1000)
 
-canvas = tkinter.Canvas(width=600, height=500)
 canvas.pack()
+x = 3
+y = 3
+d = 30
+xx =x
+pocet = (600-2)//(d+5)
+stvrtina = d//4
+for g in range((1000-2)//(d+d//2)):
+    for i in range(pocet):
+            colors =random.choice( ['yellow', 'purple', 'green', 'pink', 'blue'])
 
-x = 10
-y = 10
-pocet_x = 600 // 12
-pocet_y = 500 // 5
+            canvas.create_rectangle(x,y+d//2,x+1*d,y+1*d+d//2,fill=colors)
+            canvas.create_polygon(x,y+d//2,x+d//2,y,x+1*d,y+d//2,fill='red',outline='black')
+            canvas.create_rectangle(x+stvrtina,y+3*stvrtina,x+stvrtina*3,y+stvrtina*5,fill='light blue')
+            canvas.create_line(x+d//2,y+stvrtina*3,x+d//2,y+stvrtina*5)
+            canvas.create_line(x+stvrtina,y+d,x+stvrtina*3,y+d)
 
-for i in range(pocet_x):
-    canvas.create_rectangle(x+20,y+20,x+30,y+30, fill = 'yellow', outline=  'black')
-    canvas.create_polygon(x+19,y+20,x+25,y+15,x+31,y+20,fill = 'red' ,outline ='black')
-    canvas.create_rectangle(x+22.5,y+22.5,x+27,y+27,fill = 'light blue')
-    x = x + 11
-
-for i in range(pocet_y):
-    canvas.create_rectangle(x + 20, y + 20, x + 30, y + 30, fill='yellow', outline='black')
-    canvas.create_polygon(x + 19, y + 20, x + 25, y + 15, x + 31, y + 20, fill='red', outline='black')
-    canvas.create_rectangle(x + 22.5, y + 22.5, x + 27, y + 27, fill='light blue')
-    y = y + 11
-
-
+            x = x+5+d
+    y = y+d+d//2
+    x =xx
 
 canvas.mainloop()
