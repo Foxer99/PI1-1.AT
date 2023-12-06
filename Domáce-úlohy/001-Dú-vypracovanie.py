@@ -11,7 +11,14 @@ pocet = (600-2)//(d+5)
 stvrtina = d//4
 for i in range((1000-2)//(d+d//2)):
     for i in range(pocet):
-            colors =random.choice( ['yellow', 'purple', 'green', 'pink', 'blue'])
+            colors =random.choice( ['blue', 'lightblue', 'cyan', 'skyblue', 'cornflowerblue', 'deepskyblue', 'royalblue',
+                                    'steelblue', 'mediumblue', 'navy', 'red', 'sandybrown', 'salmon',
+                                    'tomato' , 'orange' , 'darkorange' , 'orangered' , 'indianred' , 'chocolate' ,
+                                    'tan' , 'maroon' , 'sienna' , 'brown' , 'saddlebrown' , 'pink' , 'plum' ,
+                                    'violet' , 'orchid' , 'magenta' , 'purple' , 'green' , 'palegreen' ,
+                                    'yellowgreen' , 'mediumseagreen' , 'lawngreen' , 'limegreen' , 'forestgreen' ,
+                                    'darkgreen' , 'yellow' , 'khaki' , 'gold' , 'gray' , 'lightgray' ,
+                                    'black' , 'white'])
 
             canvas.create_rectangle(x,y+d//2,x+1*d,y+1*d+d//2,fill=colors)
             canvas.create_polygon(x,y+d//2,x+d//2,y,x+1*d,y+d//2,fill='red',outline='black')

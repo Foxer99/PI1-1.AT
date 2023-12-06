@@ -8,11 +8,46 @@ x = 5
 y = 15
 dlzka = 10
 
-color_1 =  random.choice(['yellow', 'orange', 'gray' , 'magenta' , 'black' , 'brown' ,'violet', 'purple', 'green', 'pink', 'blue'])
-color_2 =  random.choice(['yellow', 'orange', 'gray' , 'magenta' , 'black' , 'brown' ,'violet', 'purple', 'green', 'pink', 'blue'])
-color_3 =  random.choice(['yellow', 'orange', 'gray' , 'magenta' , 'black' , 'brown' ,'violet', 'purple', 'green', 'pink', 'blue'])
-color_4 =  random.choice(['yellow', 'orange', 'gray' , 'magenta' , 'black' , 'brown' ,'violet', 'purple', 'green', 'pink', 'blue'])
-color_5 =  random.choice(['yellow', 'orange', 'gray' , 'magenta' , 'black' , 'brown' ,'violet', 'purple', 'green', 'pink', 'blue'])
+color_1 =  random.choice(['blue', 'lightblue', 'cyan', 'skyblue', 'cornflowerblue', 'deepskyblue', 'royalblue',
+                                    'steelblue', 'mediumblue', 'navy', 'red', 'sandybrown', 'salmon',
+                                    'tomato' , 'orange' , 'darkorange' , 'orangered' , 'indianred' , 'chocolate' ,
+                                    'tan' , 'maroon' , 'sienna' , 'brown' , 'saddlebrown' , 'pink' , 'plum' ,
+                                    'violet' , 'orchid' , 'magenta' , 'purple' , 'green' , 'palegreen' ,
+                                    'yellowgreen' , 'mediumseagreen' , 'lawngreen' , 'limegreen' , 'forestgreen' ,
+                                    'darkgreen' , 'yellow' , 'khaki' , 'gold' , 'gray' , 'lightgray' ,
+                                    'black' , 'white'])
+color_2 =  random.choice(['blue', 'lightblue', 'cyan', 'skyblue', 'cornflowerblue', 'deepskyblue', 'royalblue',
+                                    'steelblue', 'mediumblue', 'navy', 'red', 'sandybrown', 'salmon',
+                                    'tomato' , 'orange' , 'darkorange' , 'orangered' , 'indianred' , 'chocolate' ,
+                                    'tan' , 'maroon' , 'sienna' , 'brown' , 'saddlebrown' , 'pink' , 'plum' ,
+                                    'violet' , 'orchid' , 'magenta' , 'purple' , 'green' , 'palegreen' ,
+                                    'yellowgreen' , 'mediumseagreen' , 'lawngreen' , 'limegreen' , 'forestgreen' ,
+                                    'darkgreen' , 'yellow' , 'khaki' , 'gold' , 'gray' , 'lightgray' ,
+                                    'black' , 'white'])
+color_3 =  random.choice(['blue', 'lightblue', 'cyan', 'skyblue', 'cornflowerblue', 'deepskyblue', 'royalblue',
+                                    'steelblue', 'mediumblue', 'navy', 'red', 'sandybrown', 'salmon',
+                                    'tomato' , 'orange' , 'darkorange' , 'orangered' , 'indianred' , 'chocolate' ,
+                                    'tan' , 'maroon' , 'sienna' , 'brown' , 'saddlebrown' , 'pink' , 'plum' ,
+                                    'violet' , 'orchid' , 'magenta' , 'purple' , 'green' , 'palegreen' ,
+                                    'yellowgreen' , 'mediumseagreen' , 'lawngreen' , 'limegreen' , 'forestgreen' ,
+                                    'darkgreen' , 'yellow' , 'khaki' , 'gold' , 'gray' , 'lightgray' ,
+                                    'black' , 'white'])
+color_4 =  random.choice(['blue', 'lightblue', 'cyan', 'skyblue', 'cornflowerblue', 'deepskyblue', 'royalblue',
+                                    'steelblue', 'mediumblue', 'navy', 'red', 'sandybrown', 'salmon',
+                                    'tomato' , 'orange' , 'darkorange' , 'orangered' , 'indianred' , 'chocolate' ,
+                                    'tan' , 'maroon' , 'sienna' , 'brown' , 'saddlebrown' , 'pink' , 'plum' ,
+                                    'violet' , 'orchid' , 'magenta' , 'purple' , 'green' , 'palegreen' ,
+                                    'yellowgreen' , 'mediumseagreen' , 'lawngreen' , 'limegreen' , 'forestgreen' ,
+                                    'darkgreen' , 'yellow' , 'khaki' , 'gold' , 'gray' , 'lightgray' ,
+                                    'black' , 'white'])
+color_5 =  random.choice(['blue', 'lightblue', 'cyan', 'skyblue', 'cornflowerblue', 'deepskyblue', 'royalblue',
+                                    'steelblue', 'mediumblue', 'navy', 'red', 'sandybrown', 'salmon',
+                                    'tomato' , 'orange' , 'darkorange' , 'orangered' , 'indianred' , 'chocolate' ,
+                                    'tan' , 'maroon' , 'sienna' , 'brown' , 'saddlebrown' , 'pink' , 'plum' ,
+                                    'violet' , 'orchid' , 'magenta' , 'purple' , 'green' , 'palegreen' ,
+                                    'yellowgreen' , 'mediumseagreen' , 'lawngreen' , 'limegreen' , 'forestgreen' ,
+                                    'darkgreen' , 'yellow' , 'khaki' , 'gold' , 'gray' , 'lightgray' ,
+                                    'black' , 'white'])
 
 #F
 canvas.create_rectangle(x, y, x + dlzka, y + dlzka,fill=color_1)
