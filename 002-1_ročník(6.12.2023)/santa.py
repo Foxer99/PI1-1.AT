@@ -11,8 +11,8 @@ canvas.pack()
 
 image_santa = tkinter.PhotoImage(file="santa.png")
 santa = canvas.create_image(santa_x, santa_y, image=image_santa)
+
 while True:
-    while True:
         canvas.update()
         time.sleep(0.0001)
         canvas.move(santa, 0, santa_posun)
