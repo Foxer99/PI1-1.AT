@@ -1,5 +1,5 @@
 import tkinter
-canvas = tkinter.Canvas(width = 1300,height = 1300,background='black')
+canvas = tkinter.Canvas(width = 1300,height = 1300, background='black')
 canvas = tkinter.Canvas()
 canvas.pack()
 

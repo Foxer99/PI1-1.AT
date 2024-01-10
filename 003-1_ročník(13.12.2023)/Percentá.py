@@ -27,4 +27,3 @@ elif 30 <= percenta:
     print('Dostatočný')
 else:
     print('Nedostatočný')
-
