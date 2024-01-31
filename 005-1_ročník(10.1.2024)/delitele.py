@@ -82,7 +82,8 @@ while True:
         break'''
 
 
-print('Pre zastavenie programu napíš 0')
+
+'''print('Pre zastavenie programu napíš 0')
 while True:
     n = int(input('Zadaj N')
     print('Prvočísla',end=' ')
@@ -94,4 +95,4 @@ while True:
     print()
     if n == 0:
         break
-
+'''
