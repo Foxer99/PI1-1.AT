@@ -6,7 +6,7 @@ def rgb (r, g, b):
     return f'#{r:02x}{g:02x}{b:02x}'
 
 def stvorce(x, y, pocet_v_rade, velkost, r=255, g=255, b=255):
-    for pocet_opakovany_stvorcov in range()
+    for pocet_opakovany_stvorcov in range():
         for i in range(pocet_v_rade):
             canvas.create_rectangle(x, y, x + velkost, y + velkost)
             x += velkost
