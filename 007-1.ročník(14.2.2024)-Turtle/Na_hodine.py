@@ -1,6 +1,6 @@
 import turtle,random
 
-dlzka = random.(10,100)
+dlzka = random.randint(10,100)
 def stvorec(dlzka):
     for i in range(4):
         t.fd(dlzka)
