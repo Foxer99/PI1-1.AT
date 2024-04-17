@@ -1,4 +1,4 @@
-veta = input('\nNapíš vetu:\t')
+veta = input('Napíš vetu:\t')
 pocet_samohlasiek = 0
 pocet_spoluhlasiek = 0
 
