@@ -17,8 +17,3 @@ for i in range(len(retazec)):
     sifra += chr(ord(retazec[i]) + posun)
 
 print(f'Zaodovaný retazec:{sifra}')
-
-meno = input('Zadaj meno:')
-priezvisko = input('Zadaj priezvisko')
-print('Voláš sa',meno,priezvisko)
-print(f'Voláš sa {meno}{priezvisko}')

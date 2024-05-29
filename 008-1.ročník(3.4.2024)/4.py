@@ -8,7 +8,6 @@ for i in veta:
 
 for i in veta:
     if i in 'qQwWrŕRŔtTzžZŽpPsšSŠdďDĎfFgGhHjJkKlĺLĹxXcčCČvVbBnňNŇmM':
-        pocet_spoluhlasiek +=1
+        pocet_spoluhlasiek += 1
 
-print(pocet_samohlasiek)
-print(pocet_spoluhlasiek)
+print('\n',pocet_samohlasiek, pocet_spoluhlasiek)
